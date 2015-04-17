@@ -1,0 +1,167 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+# Multi/Sub martini (8) to come 
+#
+newmtl martini_glass
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.8 0.8 0.8
+d  0.0
+Ns  10.0
+illum 2
+#
+newmtl gin_and_vermouth
+Ka  0.0 0.0 0.0
+Kd  1.0 1.0 1.0
+Ks  0.3 0.3 0.3
+d  0.0
+Ns  10.0
+illum 2
+#
+newmtl pimento
+Ka  0.4 0.2 0.1
+Kd  0.4 0.2 0.1
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  2.1
+illum 2
+#
+newmtl olive
+Ka  0.7 0.6 0.3
+Kd  0.4 0.5 0.2
+Ks  0.9 0.8 0.6
+d  1.0
+Ns  2.8
+illum 2
+#
+newmtl swizzel_stick_-_red
+Ka  0.0 0.0 0.0
+Kd  0.5 0.5 0.5
+Ks  0.8 0.8 0.8
+d  0.0
+Ns  10.0
+illum 2
+#
+newmtl lemon_zest
+Ka  0.0 0.0 0.0
+Kd  1.0 0.8 0.1
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl gin
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  0.0
+Ns  10.0
+illum 2
+#
+newmtl rind
+Ka  0.0 0.0 0.0
+Kd  0.9 0.9 0.9
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  10.0
+illum 2
+#
+# Multi/Sub martini done 
+#
+# Multi/Sub mixed_nuts (6) to come 
+#
+newmtl bowl
+Ka  0.0 0.0 0.0
+Kd  0.8 0.8 0.8
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl almond
+Ka  0.4 0.0 0.0
+Kd  0.4 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  2.9
+illum 2
+#
+newmtl brazil_nut
+Ka  0.3 0.2 0.1
+Kd  0.8 0.5 0.3
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl macadamia_nut
+Ka  0.6 0.4 0.1
+Kd  0.6 0.4 0.1
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.2
+illum 2
+#
+newmtl cashew
+Ka  0.4 0.2 0.0
+Kd  0.4 0.2 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.8
+illum 2
+#
+newmtl pecan
+Ka  0.7 0.4 0.2
+Kd  0.7 0.4 0.2
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  2.9
+illum 2
+#
+# Multi/Sub mixed_nuts done 
+#
+# Multi/Sub manhattan (5) to come 
+#
+newmtl manhattan_glass
+Ka  0.0 0.0 0.0
+Kd  1.0 1.0 1.0
+Ks  0.2 0.2 0.2
+d  0.0
+Ns  10.0
+illum 2
+#
+newmtl whiskey_and_vermouth
+Ka  0.0 0.0 0.0
+Kd  1.0 1.0 1.0
+Ks  0.3 0.3 0.3
+d  0.0
+Ns  10.0
+illum 2
+#
+newmtl cherry
+Ka  0.0 0.0 0.0
+Kd  0.5 0.0 0.0
+Ks  0.7 0.7 0.7
+d  0.4
+Ns  10.0
+illum 2
+#
+newmtl cherry_stem
+Ka  0.0 0.0 0.0
+Kd  0.2 0.1 0.0
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl swizzel_stick_-_yellow
+Ka  0.0 0.0 0.0
+Kd  0.5 0.5 0.5
+Ks  0.8 0.8 0.8
+d  0.0
+Ns  10.0
+illum 2
+#
+# Multi/Sub manhattan done 
+#
+# EOF

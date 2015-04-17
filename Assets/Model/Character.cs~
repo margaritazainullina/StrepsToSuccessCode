@@ -1,0 +1,30 @@
+using System;
+
+namespace Model
+{
+		[Serializable]
+		public class Character  //Singletone
+		{
+				public Int64 Id { get; set; }
+				public String Title { get; set; }
+				public String Gender { get; set; }
+				public int Level { get; set; }
+		
+				private static Character instance;
+		
+				public static Character Instance {
+						get {
+								if (instance == null) {
+										instance = new Character ();
+								}
+								return instance;
+						}
+				}
+		
+				public virtual Enterprise Enterprise { get; set; }
+		
+				private Character ()
+				{
+				}	
+		}
+}

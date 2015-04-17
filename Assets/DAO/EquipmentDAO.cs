@@ -1,0 +1,96 @@
+using UnityEngine;
+using System.Collections;
+using MySql.Data.MySqlClient;
+using System;
+using Model;
+using System.Collections.Generic;
+using AssemblyCSharp;
+
+public class EquipmentDAO
+{
+    //returns list with all characters from db
+    public static List<Equipment> GetEquipment(MySqlConnection connection)
+    {
+        connection.Open();
+        //retrieve from db
+        MySqlCommand command = connection.CreateCommand();
+        command.CommandText = "SELECT * FROM `equipment`";
+        MySqlDataReader data = command.ExecuteReader();
+
+        List<Equipment> equipment = new List<Equipment>();
+
+        //read data from dataReader and form list of Character instances
+        while (data.Read())
+        {
+            if (data.IsDBNull(0))
+            {
+                break;
+            }
+            String title = (String)data["title"];
+            Int64 id = Convert.ToInt64(data["id"]);
+            Decimal price = Convert.ToDecimal(data["price"]);
+
+            Equipment equip = new Equipment(id, title, price);
+            Debug.Log("Get piece of equipment of type =" + title);
+            equipment.Add(equip);
+        }
+        connection.Close();
+        return equipment;
+    }
+
+    public static void InsertEquipment(MySqlConnection connection, List<Equipment> equipment)
+    {
+
+        foreach (Equipment equip in equipment)
+        {
+            connection.Open();
+            String Query = "INSERT INTO equipment(title,price) values(" + equip.Title + "," + equip.Price + ");";
+
+            Query = Helper.ReplaceInsertQueryVoidWithNulls(Query);
+            MySqlCommand command = new MySqlCommand(Query, connection);
+
+            command.ExecuteReader();
+            Debug.Log("Insert piece of equipment of type = " + equip.Title);
+            connection.Close();
+        }
+
+    }
+
+    public static void UpdateEquipment(MySqlConnection connection, List<Equipment> equipment)
+    {
+
+        foreach (Equipment equip in equipment)
+        {
+            connection.Open();
+            String Query = "UPDATE `equipment` SET title=" + equip.Title + ", price=" + equip.Price + " where id=" + equip.Id + ";";
+
+            Query = Helper.ReplaceUpdateQueryVoidWithNulls(Query);
+
+            MySqlCommand command = new MySqlCommand(Query, connection);
+
+            command.ExecuteReader();
+            Debug.Log("Update piece of equipment of type =" + equip.Title);
+            connection.Close();
+        }
+
+    }
+
+    public static void DeleteCharacters(MySqlConnection connection, List<Equipment> equipment)
+    {
+
+        foreach (Equipment equip in equipment)
+        {
+            connection.Open();
+            String Query = "DELETE FROM `character` WHERE id=" + equip.Id + ";";
+
+
+            MySqlCommand command = new MySqlCommand(Query, connection);
+
+            command.ExecuteReader();
+            Debug.Log("Delete piece of equipment of type =" + equip.Title);
+            connection.Close();
+        }
+
+    }
+
+}

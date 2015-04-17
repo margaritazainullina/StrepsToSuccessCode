@@ -1,0 +1,5 @@
+E:\3D\NewBase\t$m$p$$$\Banci desc lamp.max
+E:\3D\NewBase\t$m$p$$$\MAXFILES.TXT
+E:\3D\NewBase\light2\Anton\texture_useful\masks\dirt&old\wallsM.jpg
+E:\3D\NewBase\light2\Anton\texture_useful\masks\dirt&old\dirt005_invert.jpg
+E:\3D\NewBase\light2\Anton\texture_useful\masks\cloth\AS2_cloth_12_bump.jpg
