@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueEditorMasterObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <dialogues>
+    <DialogueEditorDialogueObject>
+      <id>0</id>
+      <name>StartDialog</name>
+      <startPage>13</startPage>
+      <scrollPosition>
+        <x>0</x>
+        <y>0</y>
+      </scrollPosition>
+      <phases>
+        <DialogueEditorPhaseObject>
+          <id>0</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>923</x>
+            <y>77</y>
+          </position>
+          <outs>
+            <int>2</int>
+          </outs>
+          <advanced>true</advanced>
+          <metadata />
+          <text>Сумма ваших собственных средств отображается в левом верхнем углу.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>500</x>
+            <y>500</y>
+            <position>
+              <x>500</x>
+              <y>500</y>
+            </position>
+            <center>
+              <x>750</x>
+              <y>750</y>
+            </center>
+            <min>
+              <x>500</x>
+              <y>500</y>
+            </min>
+            <max>
+              <x>1000</x>
+              <y>1000</y>
+            </max>
+            <width>500</width>
+            <height>500</height>
+            <size>
+              <x>500</x>
+              <y>500</y>
+            </size>
+            <xMin>500</xMin>
+            <yMin>500</yMin>
+            <xMax>1000</xMax>
+            <yMax>1000</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>1</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>592</x>
+            <y>294</y>
+          </position>
+          <outs>
+            <int>0</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Введите ваш Логин</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>250</x>
+              <y>250</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>500</x>
+              <y>500</y>
+            </max>
+            <width>500</width>
+            <height>500</height>
+            <size>
+              <x>500</x>
+              <y>500</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>2</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>1254.3042</x>
+            <y>80</y>
+          </position>
+          <outs>
+            <int>3</int>
+          </outs>
+          <advanced>true</advanced>
+          <metadata />
+          <text>Информация о вашем местоположении отображается на миникарте в левом верхнем углу.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>250</x>
+              <y>250</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>500</x>
+              <y>500</y>
+            </max>
+            <width>500</width>
+            <height>500</height>
+            <size>
+              <x>500</x>
+              <y>500</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>3</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>1594.3042</x>
+            <y>75</y>
+          </position>
+          <outs>
+            <int>4</int>
+          </outs>
+          <advanced>true</advanced>
+          <metadata />
+          <text>Вся необходимая информация находится в планшете слева.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>250</x>
+              <y>250</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>500</x>
+              <y>500</y>
+            </max>
+            <width>500</width>
+            <height>500</height>
+            <size>
+              <x>500</x>
+              <y>500</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>4</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>1936.3042</x>
+            <y>73</y>
+          </position>
+          <outs>
+            <int>5</int>
+          </outs>
+          <advanced>true</advanced>
+          <metadata />
+          <text>Вкладка «Сообщения». 
+Здесь отображаются звонки и электронная почта, а так же оповещения.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>250</x>
+              <y>250</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>500</x>
+              <y>500</y>
+            </max>
+            <width>500</width>
+            <height>500</height>
+            <size>
+              <x>500</x>
+              <y>500</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>5</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>2291.3042</x>
+            <y>74</y>
+          </position>
+          <outs>
+            <int>6</int>
+          </outs>
+          <advanced>true</advanced>
+          <metadata />
+          <text>Вкладка «Задания». 
+Здесь находится задания для текущей миссии.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>250</x>
+              <y>250</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>500</x>
+              <y>500</y>
+            </max>
+            <width>500</width>
+            <height>500</height>
+            <size>
+              <x>500</x>
+              <y>500</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>6</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>2625.3042</x>
+            <y>77</y>
+          </position>
+          <outs>
+            <int>7</int>
+          </outs>
+          <advanced>true</advanced>
+          <metadata />
+          <text>Вкладка «Предприятие».
+Здесь находится информация о деятельности предприятия 
+(баланс, успешность работы, информация о сотрудниках).</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>250</x>
+              <y>250</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>500</x>
+              <y>500</y>
+            </max>
+            <width>500</width>
+            <height>500</height>
+            <size>
+              <x>500</x>
+              <y>500</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>7</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>2970.3042</x>
+            <y>80</y>
+          </position>
+          <outs>
+            <int>8</int>
+          </outs>
+          <advanced>true</advanced>
+          <metadata />
+          <text>Вкладка «Проекты». 
+Состояние текущих проектов. 
+Следите чтобы проекты были выполнены в срок и вкладывались в бюджет.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>250</x>
+              <y>250</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>500</x>
+              <y>500</y>
+            </max>
+            <width>500</width>
+            <height>500</height>
+            <size>
+              <x>500</x>
+              <y>500</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>8</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>3299.3042</x>
+            <y>78</y>
+          </position>
+          <outs>
+            <int>9</int>
+          </outs>
+          <advanced>true</advanced>
+          <metadata />
+          <text>Вкладка «Статистика». 
+Тут будут приведены финансовые результаты деятельности предприятия.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>250</x>
+              <y>250</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>500</x>
+              <y>500</y>
+            </max>
+            <width>500</width>
+            <height>500</height>
+            <size>
+              <x>500</x>
+              <y>500</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>9</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>3654.3042</x>
+            <y>77</y>
+          </position>
+          <outs>
+            <int>10</int>
+          </outs>
+          <advanced>true</advanced>
+          <metadata />
+          <text>Ваш офис, здания налоговой инспекции, банков, инвесторов и т.д. отмечены на карте маркерами. 
+Чтобы перейти в здание, нажмите на его  маркер.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>250</x>
+              <y>250</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>500</x>
+              <y>500</y>
+            </max>
+            <width>500</width>
+            <height>500</height>
+            <size>
+              <x>500</x>
+              <y>500</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>10</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>4005.3042</x>
+            <y>76</y>
+          </position>
+          <outs>
+            <int>11</int>
+          </outs>
+          <advanced>true</advanced>
+          <metadata />
+          <text>Желаем удачи при создании нового предприятия!</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>250</x>
+              <y>250</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>500</x>
+              <y>500</y>
+            </max>
+            <width>500</width>
+            <height>500</height>
+            <size>
+              <x>500</x>
+              <y>500</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>11</id>
+          <type>EndPhase</type>
+          <position>
+            <x>4367.304</x>
+            <y>80</y>
+          </position>
+          <outs />
+          <advanced>false</advanced>
+          <text />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>12</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>374</x>
+            <y>55</y>
+          </position>
+          <outs>
+            <int>1</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Приветствуем в симуляторе IT предприятия  «Steps to Success».
+Вы пройдете все этапы создания и функионирования предприятия в этой области.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>400</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>800</x>
+              <y>0</y>
+            </max>
+            <width>800</width>
+            <height>0</height>
+            <size>
+              <x>800</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>800</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>13</id>
+          <type>SetVariablePhase</type>
+          <position>
+            <x>79</x>
+            <y>274</y>
+          </position>
+          <outs>
+            <int>12</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Float</variableType>
+          <variableId>1</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableSetValue>0</variableSetValue>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+      </phases>
+      <floats>
+        <variables />
+        <selection>0</selection>
+      </floats>
+      <strings>
+        <variables />
+        <selection>0</selection>
+      </strings>
+      <booleans>
+        <variables />
+        <selection>0</selection>
+      </booleans>
+    </DialogueEditorDialogueObject>
+    <DialogueEditorDialogueObject>
+      <id>1</id>
+      <name>OfficeDialog</name>
+      <startPage>0</startPage>
+      <scrollPosition>
+        <x>0</x>
+        <y>0</y>
+      </scrollPosition>
+      <phases>
+        <DialogueEditorPhaseObject>
+          <id>0</id>
+          <type>TextPhase</type>
+          <position>
+            <x>195</x>
+            <y>137</y>
+          </position>
+          <outs>
+            <int>1</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Это офис компании, стоимость покупки $20 000</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>1</id>
+          <type>BranchedTextPhase</type>
+          <theme />
+          <position>
+            <x>556</x>
+            <y>97</y>
+          </position>
+          <outs>
+            <int>2</int>
+            <int>2</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Вы хотите купить данный офис?</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices>
+            <string>Да</string>
+            <string>Нет</string>
+          </choices>
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>2</id>
+          <type>EndPhase</type>
+          <position>
+            <x>929</x>
+            <y>107</y>
+          </position>
+          <outs />
+          <advanced>false</advanced>
+          <text />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+      </phases>
+      <floats>
+        <variables />
+        <selection>0</selection>
+      </floats>
+      <strings>
+        <variables />
+        <selection>0</selection>
+      </strings>
+      <booleans>
+        <variables />
+        <selection>0</selection>
+      </booleans>
+    </DialogueEditorDialogueObject>
+    <DialogueEditorDialogueObject>
+      <id>2</id>
+      <name>Mission1</name>
+      <startPage>13</startPage>
+      <scrollPosition>
+        <x>106.467522</x>
+        <y>0</y>
+      </scrollPosition>
+      <phases>
+        <DialogueEditorPhaseObject>
+          <id>0</id>
+          <type>BranchedTextPhase</type>
+          <position>
+            <x>317</x>
+            <y>35</y>
+          </position>
+          <outs>
+            <int xsi:nil="true" />
+            <int>1</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Чтобы начать деятельность предприятия вы должны сначала найти средства для его первоначального капитала. Вы можете потратить средства на маркетинговое исследование, которое вам покажет оптимальный вариант вложения в первоначальный капитал, а можете решить сами как распроядиться средствами.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices>
+            <string>Провести маркетинговое исследование</string>
+            <string>Решить самостоятельно</string>
+          </choices>
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>1</id>
+          <type>BranchedTextPhase</type>
+          <position>
+            <x>617</x>
+            <y>305</y>
+          </position>
+          <outs>
+            <int>2</int>
+            <int>3</int>
+            <int>4</int>
+            <int>5</int>
+            <int>6</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Ну, если вы так уверены в себе, то выберите один из вариантов, с рассчетом того, что у вас останутся свободные собственные средства, и/или будете в состоянии расплатиться за кредит или оплатить проценты инвестору.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices>
+            <string>Вложить только собственные средства</string>
+            <string>Найти инвестора</string>
+            <string>Вложить собственные средства и привлечь инвестора</string>
+            <string>Взять кредит в банке</string>
+            <string>Вложить собственные средства и взять кредит в банке</string>
+          </choices>
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>2</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>953</x>
+            <y>295</y>
+          </position>
+          <outs>
+            <int xsi:nil="true" />
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Что же, довольно рискованно рассчитывать только на собственный капитал, но вы в любой момент сможете взять кредит или найти инвестора для расширения бизнеса.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>3</id>
+          <type>TextPhase</type>
+          <position>
+            <x>958</x>
+            <y>438</y>
+          </position>
+          <outs>
+            <int xsi:nil="true" />
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Хорошая идея - найти инвестора, который заинтересован в успехе вашего предприятия, только вам нужно будет выплачивать им проценты от дохода вовремя, иначе инвесторы могут отказаться от финансирования.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>4</id>
+          <type>TextPhase</type>
+          <position>
+            <x>954</x>
+            <y>577</y>
+          </position>
+          <outs>
+            <int xsi:nil="true" />
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Хорошая идея - не только найти инвестора, который заинтересован в успехе вашего предприятия, но и вложить в первоначальный капитал собственные средства, в случает отказа от финансирования инвестора.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>5</id>
+          <type>TextPhase</type>
+          <position>
+            <x>958</x>
+            <y>723</y>
+          </position>
+          <outs>
+            <int xsi:nil="true" />
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Заёмные средства обеспечивают увеличение оборота предприятия, но следите за затратами, чтобы оплачивать кредит вовремя.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>6</id>
+          <type>TextPhase</type>
+          <position>
+            <x>956</x>
+            <y>876</y>
+          </position>
+          <outs>
+            <int xsi:nil="true" />
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Заёмные средства обеспечивают увеличение оборота предприятия, и в то же время лучше иметь запас собственнх средств в капитале предприятия.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>7</id>
+          <type>TextPhase</type>
+          <position>
+            <x>1329</x>
+            <y>213</y>
+          </position>
+          <outs>
+            <int>8</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Первоначальный капитал теперь составляет Х</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>8</id>
+          <type>BranchedTextPhase</type>
+          <position>
+            <x>1673</x>
+            <y>204</y>
+          </position>
+          <outs>
+            <int>9</int>
+            <int>9</int>
+            <int>9</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Теперь выберите офис для вашего предприятия. Вы можете купить или арендовать один из выбранных офисов.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices>
+            <string>Небольшой офис (максимум 5 работников)</string>
+            <string>Средний офис (максимум 10 работников)</string>
+            <string>Большой офис (максимум 10 работников)</string>
+          </choices>
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>9</id>
+          <type>TextPhase</type>
+          <position>
+            <x>2017</x>
+            <y>190</y>
+          </position>
+          <outs>
+            <int>10</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>При выполнении IT проектов вам понадобятся работники которые будут работать над разными стадиями проекта: анализ требований, разработка, тестирование и дизайн. Работники могут иметь разную квалификацию, что  скажется на скорости выполнении проекта и их зарлате. Квалификация работника может повышаться со временем при выполнении успешных проектов.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>10</id>
+          <type>TextPhase</type>
+          <position>
+            <x>2357</x>
+            <y>189</y>
+          </position>
+          <outs>
+            <int>11</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Наймите для начала по 1 работнику – бизнес-аналитику, разработчику, дизайнеру и тестировщику.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>11</id>
+          <type>TextPhase</type>
+          <position>
+            <x>2704.507</x>
+            <y>185</y>
+          </position>
+          <outs>
+            <int>12</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Хорошо, вы наняли своих работников, уволить, нанять или посмотреть информацию о них вы можете во вкладке планшета «Работники».</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>12</id>
+          <type>EndPhase</type>
+          <position>
+            <x>3058.507</x>
+            <y>185</y>
+          </position>
+          <outs />
+          <advanced>false</advanced>
+          <text />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>13</id>
+          <type>SetVariablePhase</type>
+          <position>
+            <x>175.467529</x>
+            <y>357</y>
+          </position>
+          <outs>
+            <int>0</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Float</variableType>
+          <variableId>1</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableSetValue>2</variableSetValue>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+      </phases>
+      <floats>
+        <variables />
+        <selection>0</selection>
+      </floats>
+      <strings>
+        <variables />
+        <selection>0</selection>
+      </strings>
+      <booleans>
+        <variables />
+        <selection>0</selection>
+      </booleans>
+    </DialogueEditorDialogueObject>
+    <DialogueEditorDialogueObject>
+      <id>3</id>
+      <name>Mission2</name>
+      <startPage>0</startPage>
+      <scrollPosition>
+        <x>922</x>
+        <y>0</y>
+      </scrollPosition>
+      <phases>
+        <DialogueEditorPhaseObject>
+          <id>0</id>
+          <type>TextPhase</type>
+          <position>
+            <x>193</x>
+            <y>88</y>
+          </position>
+          <outs>
+            <int>1</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Следующий шаг - оформление предприятия в бюро регистрации (?). Перейдите в выбранную локацию.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>1</id>
+          <type>BranchedTextPhase</type>
+          <position>
+            <x>537</x>
+            <y>91</y>
+          </position>
+          <outs>
+            <int>2</int>
+            <int>2</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Вы будете оформлять как физическое или юридическое лицо?</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices>
+            <string>Физическое лицо</string>
+            <string>Юридическое лицо</string>
+          </choices>
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>2</id>
+          <type>TextPhase</type>
+          <position>
+            <x>891</x>
+            <y>143</y>
+          </position>
+          <outs>
+            <int xsi:nil="true" />
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Поздравляю! Вы зарегистрировали свое предприятие.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>3</id>
+          <type>TextPhase</type>
+          <position>
+            <x>1249</x>
+            <y>143</y>
+          </position>
+          <outs>
+            <int xsi:nil="true" />
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Поздравляем. С этого момента вы – предприниматель!</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+      </phases>
+      <floats>
+        <variables />
+        <selection>0</selection>
+      </floats>
+      <strings>
+        <variables />
+        <selection>0</selection>
+      </strings>
+      <booleans>
+        <variables />
+        <selection>0</selection>
+      </booleans>
+    </DialogueEditorDialogueObject>
+    <DialogueEditorDialogueObject>
+      <id>4</id>
+      <name>Mission3</name>
+      <startPage>1</startPage>
+      <scrollPosition>
+        <x>0</x>
+        <y>0</y>
+      </scrollPosition>
+      <phases>
+        <DialogueEditorPhaseObject>
+          <id>0</id>
+          <type>TextPhase</type>
+          <position>
+            <x>544</x>
+            <y>71</y>
+          </position>
+          <outs>
+            <int>2</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Теперь добавьте работников на этот проект.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>1</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>192</x>
+            <y>72</y>
+          </position>
+          <outs>
+            <int>0</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>А вот и наш первый заказчик! Требуется создать (какую-то фигню ) за х дней. При успешном выполнении проекта вы получите х грн. Подтвердите, что беретесь за выполнение проекта.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>2</id>
+          <type>TextPhase</type>
+          <position>
+            <x>903</x>
+            <y>70</y>
+          </position>
+          <outs>
+            <int xsi:nil="true" />
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>С этого момента сотрудники выполняют проект, по умолчанию они работают по 8 часов в день, до того, как закончат свою работу. Процеесс выполнения проекта можо увидеть на диаграмме Ганта в текущем проекте.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+      </phases>
+      <floats>
+        <variables />
+        <selection>0</selection>
+      </floats>
+      <strings>
+        <variables />
+        <selection>0</selection>
+      </strings>
+      <booleans>
+        <variables />
+        <selection>0</selection>
+      </booleans>
+    </DialogueEditorDialogueObject>
+  </dialogues>
+  <globals>
+    <booleans>
+      <variables>
+        <DialogueEditorVariableObject>
+          <name>DialoguerTest_HadFun</name>
+          <variable>true</variable>
+          <id>0</id>
+        </DialogueEditorVariableObject>
+        <DialogueEditorVariableObject>
+          <name>Login</name>
+          <variable>false</variable>
+          <id>1</id>
+        </DialogueEditorVariableObject>
+      </variables>
+      <selection>0</selection>
+    </booleans>
+    <floats>
+      <variables>
+        <DialogueEditorVariableObject>
+          <name>DialoguerTest_Count</name>
+          <variable>0</variable>
+          <id>0</id>
+        </DialogueEditorVariableObject>
+        <DialogueEditorVariableObject>
+          <name>CurrentId</name>
+          <variable>0</variable>
+          <id>1</id>
+        </DialogueEditorVariableObject>
+      </variables>
+      <selection>1</selection>
+    </floats>
+    <strings>
+      <variables>
+        <DialogueEditorVariableObject>
+          <name>Login</name>
+          <variable />
+          <id>0</id>
+        </DialogueEditorVariableObject>
+      </variables>
+      <selection>0</selection>
+    </strings>
+  </globals>
+  <themes>
+    <themes>
+      <DialogueEditorThemeObject>
+        <id>0</id>
+        <name>Default</name>
+        <linkage>theme_default</linkage>
+      </DialogueEditorThemeObject>
+      <DialogueEditorThemeObject>
+        <id>1</id>
+        <name>Good</name>
+        <linkage>theme_good</linkage>
+      </DialogueEditorThemeObject>
+      <DialogueEditorThemeObject>
+        <id>2</id>
+        <name>Bad</name>
+        <linkage>theme_bad</linkage>
+      </DialogueEditorThemeObject>
+    </themes>
+    <selection>0</selection>
+  </themes>
+  <selectorScrollPosition>
+    <x>0</x>
+    <y>0</y>
+  </selectorScrollPosition>
+  <currentDialogueId>2</currentDialogueId>
+</DialogueEditorMasterObject>

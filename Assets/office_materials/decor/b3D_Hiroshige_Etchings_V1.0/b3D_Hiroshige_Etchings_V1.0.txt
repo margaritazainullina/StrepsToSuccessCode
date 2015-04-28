@@ -1,0 +1,57 @@
+	
+	b
+	bbb
+	bbbb
+	bbbbbb
+	bbbbbbb                                                                      b       b
+	bbbbbbbbb                                                                    bb      bb
+	bbbbbbbbb                                                                    bbb     bbb
+	bbbbbbbbb                                                                    bbbbb   bbbbb
+	bbbbbbbbb                                                                    bbbbbb  bbbbbb
+	bbbbbbbbbbbbbbbbbbbb                                                         bbbbbbb bbbbbbb
+	bbbbbbbbbbbbbbbbbbbbbbbb                                                     bbbbbbb bbbbbbb
+	bbbbbbbbbbbbbbbbbbbbbbbbbb                                                           bbbbbbb
+	bbbbbbbbbbbbbbbbbbbbbbbbbbb           bbbbbbbb              bbbbbbbbbbbbbbbb bbbbbbb bbbbbbb bbbbbbbbbbbbbbb        bbbbbbbbbbbbbbbb           bbbbbbbb
+	bbbbbbbbbbbbbbbbbbbbbbbbbbbb       bbbbbbbbbbbbbb         bbbbbbbbbbbbbbbbbb bbbbbbb bbbbbbb bbbbbbbbbbbbbbbbbb     bbbbbbbbbbbbbbbbbb       bbbbbbbbbbb
+	bbbbbbbbb	    bbbbbbbbb    bbbbbbbbbbbbbbbbbb     bbbbbbbbbbbbbbbbbbbb bbbbbbb bbbbbbb bbbbbbbbbbbbbbbbbbb    bbbbbbbbbbbbbbbbbbbb   bbbbbbbbbbbbbb
+	bbbbbbbbb            bbbbbbbbb  bbbbbbbbbbbbbbbbbbbb   bbbbbbbbbbbbbbbbbbbbb bbbbbbb bbbbbbb bbbbbbbbbbbbbbbbbbbbb  bbbbbbbbbbbbbbbbbbbbb  bbbbbbbbbbbbbbb
+	bbbbbbbbb            bbbbbbbbb bbbbbbb        bbbbbb  bbbbbbb                bbbbbbb bbbbbbb bbbbbbb        bbbbbb  bbbbbbb       bbbbbbb bbbbbbb
+	bbbbbbbbb            bbbbbbbbb bbbbbb         bbbbbb bbbbbbbbbbbbbbbbbbbbbbb bbbbbbb bbbbbbb bbbbbbb         bbbbbb bbbbbbb        bbbbbb bbbbbb
+	bbbbbbbbb            bbbbbbbbb bbbbbb         bbbbbb bbbbbbbbbbbbbbbbbbbbbbb bbbbbbb bbbbbbb bbbbbbb         bbbbbb bbbbbbb        bbbbbb bbbbbbbbbbbb
+	bbbbbbbbbb          bbbbbbbbb  bbbbbb         bbbbbb bbbbbbbbbbbbbbbbbbbbbbb bbbbbbb bbbbbbb bbbbbbb         bbbbbb  bbbbbb        bbbbbb bbbbbbbbbb
+	 bbbbbbbbbbbbbbbbbbbbbbbbbbbb  bbbbbbbb       bbbbbb                 bbbbbbb bbbbbbb bbbbbbb bbbbbbb       bbbbbbb    bbbbb        bbbbbb bbbbbb
+	 bbbbbbbbbbbbbbbbbbbbbbbbbbb    bbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbbb  bbbbbbb bbbbbbb  bbbbbbbbbbbbbbbbbbbb     bbbb        bbbbbb bbbbbbbbbbbbbbbb
+	  bbbbbbbbbbbbbbbbbbbbbbbbb      bbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbb   bbbbbbb bbbbbbb   bbbbbbbbbbbbbbbbbb       bbb        bbbbbb bbbbbbbbbbbbbbb
+	    bbbbbbbbbbbbbbbbbbbbb         bbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbb     bbbbbbb bbbbbbb    bbbbbbbbbbbbbbb          bb        bbbbbb bbbbbbbbbbbbbb
+	      bbbbbbbbbbbbbbbb              bbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbb       bbbbbbb bbbbbbb       bbbbbbbbb              b        bbbbbb bbbbbbbbbbbbb
+								
+								"Better than yesterday, worth than tomorrow."
+
+				
+
+				 				The basilone 3D Modeling Department, present: 
+                                                       
+                                          "Ando Hiroshige Etchings Stamps" v1.0 (copyright basilone 1994-2006) by Xavier De La Obra.
+
+							- Model(s):
+									   b3D_Etchings_Stamp (10 Polygons)
+
+
+							- Material(s):
+								               Sides (Phong)
+
+							- Texture(s):
+								       01 - Dyers' Quarter, Kanda.jpg (600x864 Pixels)
+								       02 - Sanno Festival Procession at Kojimachi I-chome.jpg (600x864 Pixels)
+								       03 - Moon Pine, Ueno.jpg (600x864 Pixels)
+								       04 - Plum Estate, Kameido.jpg (600x864 Pixels)
+								       05 - Ushimachi, Takanawa.jpg (600x864 Pixels)
+
+					
+					For asking any question, or if you need custom modeling items, don't esitate to contact me at basilone@free.fr 
+				
+			                
+					We apreciate your business, thank you!
+
+
+					Xavier De La Obra, 3D Modeling Department Manager.	

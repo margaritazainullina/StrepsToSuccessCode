@@ -1,0 +1,14 @@
+D:\t$m$p$$$\dessert tray.max
+D:\t$m$p$$$\MAXFILES.TXT
+D:\textures\4392651590_24f5cc03e6_o.jpg
+D:\textures\roseSepal_col.bmp
+D:\textures\roseSepal_bump.bmp
+D:\textures\cupcake_b_cup.jpg
+D:\textures\chocolate.jpg
+D:\textures\cupcake_top.jpg
+D:\textures\cupcake_B_top.jpg
+D:\textures\cream.jpg
+D:\textures\banana.jpg
+D:\textures\4396000601_494f609271_o.jpg
+D:\textures\grape_leaf.jpg
+D:\textures\grape_leaf_alpha.png
