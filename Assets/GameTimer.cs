@@ -5,6 +5,7 @@ using System.Timers;
 
 //observer
 using Model;
+using UnityEngine.UI;
 
 
 public class GameTimer : MonoBehaviour {
@@ -13,6 +14,9 @@ public class GameTimer : MonoBehaviour {
 	//game date and time
 	public static DateTime gameDate;
 	System.Timers.Timer Timer1;
+
+	public static TabScript ts = new TabScript();
+
 
 	//speed 0-pause
 	//speed 1 - 1 game hour = 7 second
@@ -46,6 +50,7 @@ public class GameTimer : MonoBehaviour {
 		date = DateTime.Now;
 		gameDate = DateTime.Now;
 
+
 	}
 	// Use this for initialization
 	void Start () {
@@ -64,8 +69,8 @@ public class GameTimer : MonoBehaviour {
 		//increase gametime value by 1 hour
 		gameDate=gameDate.AddHours (1);
 		Debug.Log("Time: "+gameDate.ToShortDateString()+" "+gameDate.ToShortTimeString());
-
-		//catch event
+		//if(ts!=null)ts.showTime (gameDate.ToShortDateString () + " " + gameDate.ToShortTimeString ());
+		NotificationCenter.getI.postNotification("OnTimedEvent", gameDate.ToShortDateString () + " " + gameDate.ToShortTimeString ());
 	}
 
 

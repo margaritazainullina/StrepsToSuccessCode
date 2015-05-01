@@ -22,6 +22,18 @@ public class TabScript : MonoBehaviour
 
 	GameTimer gt;
 
+	Text tab1Text;
+	Text tab2Text;
+	Text tab3Text;
+	Text tab4Text;
+	Text tab5Text;
+	Text tab6Text;
+	Text timeText;
+
+
+	
+	public delegate void InvokeDelegate(string input);
+
 	//singletone Enterprise
 	//TODO: replace, load from storage
 //	Enterprise enterprise = Character.Instance.Enterprise;	
@@ -48,6 +60,7 @@ public class TabScript : MonoBehaviour
 		NotificationCenter.getI.addCallback("PayUST", this.PayUSTDisplay);
 		NotificationCenter.getI.addCallback("LoanDisbursement", this.LoanDisbursementDisplay);
 		NotificationCenter.getI.addCallback("LoanDisbursement", this.SharePayoutDisplay);
+		NotificationCenter.getI.addCallback("OnTimedEvent", this.OnTimedEventDisplay);
 
 
 		//start timer
@@ -63,7 +76,18 @@ public class TabScript : MonoBehaviour
 		tab3 = Resources.Load<Sprite>("_05");
 		tab4 = Resources.Load<Sprite>("_15");
 		tab5 = Resources.Load<Sprite>("_11");
-		tab6 = Resources.Load<Sprite>("_13");	
+		tab6 = Resources.Load<Sprite>("_13");
+
+		//get text elements for each tab
+		tab1Text = tab.GetComponentsInChildren<Text>()[0];
+		tab2Text = tab.GetComponentsInChildren<Text>()[1];
+		tab3Text = tab.GetComponentsInChildren<Text>()[2];
+		tab4Text = tab.GetComponentsInChildren<Text>()[3];
+		tab5Text = tab.GetComponentsInChildren<Text>()[4];
+		tab6Text = tab.GetComponentsInChildren<Text>()[5];
+		//text with time
+		timeText = tab.GetComponentsInChildren<Text>()[6];
+
 
 		//TODO: remove,just for test
 		//enterprise = new Enterprise (0, "", 100, 100, 1, 1);
@@ -74,10 +98,13 @@ public class TabScript : MonoBehaviour
 	//name of method - name of event method in observed class+Display
 	private void CreateEnterpriseWithPrivateAssetsDisplay(object sender)
 	{
-		//TODO: remove logging with writing to ui
+		//TODO: remove logging with writing to ui for all!
 		Decimal amount = (Decimal)sender;
 		Debug.Log ("Создано предприятие "+enterprise.Title+"!");
 		Debug.Log ("На баланс предприятия внесено: "+amount+" грн.");
+
+		tab1Text.text+="Создано предприятие "+enterprise.Title+"!\n";
+		tab1Text.text+="На баланс предприятия внесено: "+amount+" грн.\n";
 	}
 	private void CreateEnterpriseWithInvestmentDisplay(object sender)
 	{
@@ -116,14 +143,14 @@ public class TabScript : MonoBehaviour
 	private void SetTaxationTypeDisplay(object sender)
 	{
 		Taxation t = (Taxation)sender;
-		if(t!=0)
+		if(t.Taxation_group!=0)
 		Debug.Log ("На предприятии выбрана "+enterprise.Title+" группа налогообложения");
 		else Debug.Log ("Вы не можете выбрать этот тип налогообложения для вашего предприятия! ");
 	}
 	private void CompleteDocumentsDisplay(object sender)
 	{
 		Document t = (Document)sender;
-			Debug.Log ("Оформлен документ "+t.Title);
+		Debug.Log ("Оформлен документ "+t.Title);
 	}
 	private void PaySalaryDisplay(object sender)
 	{
@@ -145,7 +172,18 @@ public class TabScript : MonoBehaviour
 		Decimal amount = (Decimal)sender;
 		Debug.Log ("Выплачено инвесторам: "+amount+" грн.");
 	}
+	public void OnTimedEventDisplay(object sender){
+	//	String time = "111";
+	//	object[] obj = new object[1];
+	//	obj [0] = time;
+	//	timeText.Invoke("UpdateTimeGui", 1);
+	}
 
+	
+/*	public void UpdateTimeGui(string input)
+	{
+		timeText.text = input;
+	}*/
 
 	// Update is called once per frame
 	void Update ()
@@ -199,25 +237,67 @@ public class TabScript : MonoBehaviour
 	public void TabMessages(){
 		Image i = tab.GetComponentsInChildren<Image>()[0];
 		i.sprite = tab1;
+		tab1Text.enabled = true;
+		tab2Text.enabled = false;
+		tab3Text.enabled = false;
+		tab4Text.enabled = false;
+		tab5Text.enabled = false;
+		tab6Text.enabled = false;
 	}
 	public void TabTasks(){
 		Image i = tab.GetComponentsInChildren<Image>()[0];
 		i.sprite = tab2;
+		tab1Text.enabled = false;
+		tab2Text.enabled = true;
+		tab3Text.enabled = false;
+		tab4Text.enabled = false;
+		tab5Text.enabled = false;
+		tab6Text.enabled = false;
+		tab2Text.text="Tab2 is loaded!";
 	}
 	public void TabEnterprise(){
 		Image i = tab.GetComponentsInChildren<Image>()[0];
 		i.sprite = tab3;
+		tab1Text.enabled = false;
+		tab2Text.enabled = false;
+		tab3Text.enabled = true;
+		tab4Text.enabled = false;
+		tab5Text.enabled = false;
+		tab6Text.enabled = false;
+		tab3Text.text="Tab3 is loaded!";
 	}
 	public void TabPersonnel(){
 		Image i = tab.GetComponentsInChildren<Image>()[0];
 		i.sprite = tab4;
+		tab1Text.enabled = false;
+		tab2Text.enabled = false;
+		tab3Text.enabled = false;
+		tab4Text.enabled = true;
+		tab5Text.enabled = false;
+		tab6Text.enabled = false;
+		tab4Text.text="Tab4 is loaded!";
 	}
 	public void TabProject(){
 		Image i = tab.GetComponentsInChildren<Image>()[0];
 		i.sprite = tab5;
+		tab1Text.enabled = false;
+		tab2Text.enabled = false;
+		tab3Text.enabled = false;
+		tab4Text.enabled = false;
+		tab5Text.enabled = true;
+		tab6Text.enabled = false;
+		tab5Text.text="Tab5 is loaded!";
 	}
 	public void TabStatistics(){
 		Image i = tab.GetComponentsInChildren<Image>()[0];
 		i.sprite = tab6;
+		tab1Text.enabled = false;
+		tab2Text.enabled = false;
+		tab3Text.enabled = false;
+		tab4Text.enabled = false;
+		tab5Text.enabled = false;
+		tab6Text.enabled = true;
+		tab6Text.text="Tab6 is loaded!";
 	}
+
 }
