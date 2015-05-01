@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DialogueEditorMasterObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <dialogues>
     <DialogueEditorDialogueObject>
       <id>0</id>
       <name>StartDialog</name>
-      <startPage>0</startPage>
+      <startPage>13</startPage>
       <scrollPosition>
         <x>0</x>
         <y>0</y>
@@ -15,49 +15,48 @@
           <type>TextPhase</type>
           <theme />
           <position>
-            <x>186</x>
-            <y>101</y>
+            <x>923</x>
+            <y>77</y>
           </position>
           <outs>
             <int>2</int>
           </outs>
-          <advanced>false</advanced>
+          <advanced>true</advanced>
           <metadata />
-          <text>Приветствуем в симуляторе IT предприятия "Steps to Success".
-Вы пройдёте все этапы создания предприятия в этой области.</text>
+          <text>Сумма ваших собственных средств отображается в левом верхнем углу.</text>
           <name />
           <portrait />
           <audio />
           <audioDelay>0</audioDelay>
           <rect>
-            <x>0</x>
-            <y>0</y>
+            <x>500</x>
+            <y>500</y>
             <position>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </position>
             <center>
-              <x>0</x>
-              <y>0</y>
+              <x>750</x>
+              <y>750</y>
             </center>
             <min>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </min>
             <max>
-              <x>0</x>
-              <y>0</y>
+              <x>1000</x>
+              <y>1000</y>
             </max>
-            <width>0</width>
-            <height>0</height>
+            <width>500</width>
+            <height>500</height>
             <size>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </size>
-            <xMin>0</xMin>
-            <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
+            <xMin>500</xMin>
+            <yMin>500</yMin>
+            <xMax>1000</xMax>
+            <yMax>1000</yMax>
           </rect>
           <newWindow>false</newWindow>
           <choices />
@@ -76,16 +75,17 @@
         <DialogueEditorPhaseObject>
           <id>1</id>
           <type>TextPhase</type>
+          <theme />
           <position>
-            <x>923</x>
-            <y>77</y>
+            <x>592</x>
+            <y>294</y>
           </position>
           <outs>
-            <int>5</int>
+            <int>0</int>
           </outs>
           <advanced>false</advanced>
           <metadata />
-          <text>Сумма ваших собственных средств отображается в левом верхнем углу.</text>
+          <text>Введите ваш Логин</text>
           <name />
           <portrait />
           <audio />
@@ -98,27 +98,27 @@
               <y>0</y>
             </position>
             <center>
-              <x>0</x>
-              <y>0</y>
+              <x>250</x>
+              <y>250</y>
             </center>
             <min>
               <x>0</x>
               <y>0</y>
             </min>
             <max>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </max>
-            <width>0</width>
-            <height>0</height>
+            <width>500</width>
+            <height>500</height>
             <size>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </size>
             <xMin>0</xMin>
             <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
           </rect>
           <newWindow>false</newWindow>
           <choices />
@@ -137,16 +137,17 @@
         <DialogueEditorPhaseObject>
           <id>2</id>
           <type>TextPhase</type>
+          <theme />
           <position>
-            <x>572</x>
-            <y>48</y>
+            <x>1254.3042</x>
+            <y>80</y>
           </position>
           <outs>
-            <int>1</int>
+            <int>3</int>
           </outs>
-          <advanced>false</advanced>
+          <advanced>true</advanced>
           <metadata />
-          <text>Выбор имени, пола персонажа и сложности игры.</text>
+          <text>Информация о вашем местоположении отображается на миникарте в левом верхнем углу.</text>
           <name />
           <portrait />
           <audio />
@@ -159,27 +160,27 @@
               <y>0</y>
             </position>
             <center>
-              <x>0</x>
-              <y>0</y>
+              <x>250</x>
+              <y>250</y>
             </center>
             <min>
               <x>0</x>
               <y>0</y>
             </min>
             <max>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </max>
-            <width>0</width>
-            <height>0</height>
+            <width>500</width>
+            <height>500</height>
             <size>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </size>
             <xMin>0</xMin>
             <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
           </rect>
           <newWindow>false</newWindow>
           <choices />
@@ -197,18 +198,18 @@
         </DialogueEditorPhaseObject>
         <DialogueEditorPhaseObject>
           <id>3</id>
-          <type>BranchedTextPhase</type>
+          <type>TextPhase</type>
+          <theme />
           <position>
-            <x>470.168945</x>
-            <y>272</y>
+            <x>1594.3042</x>
+            <y>75</y>
           </position>
           <outs>
-            <int xsi:nil="true" />
-            <int xsi:nil="true" />
+            <int>4</int>
           </outs>
-          <advanced>false</advanced>
+          <advanced>true</advanced>
           <metadata />
-          <text>Ваш пол</text>
+          <text>Вся необходимая информация находится в планшете слева.</text>
           <name />
           <portrait />
           <audio />
@@ -221,33 +222,30 @@
               <y>0</y>
             </position>
             <center>
-              <x>0</x>
-              <y>0</y>
+              <x>250</x>
+              <y>250</y>
             </center>
             <min>
               <x>0</x>
               <y>0</y>
             </min>
             <max>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </max>
-            <width>0</width>
-            <height>0</height>
+            <width>500</width>
+            <height>500</height>
             <size>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </size>
             <xMin>0</xMin>
             <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
           </rect>
           <newWindow>false</newWindow>
-          <choices>
-            <string>Мужской</string>
-            <string>Женский</string>
-          </choices>
+          <choices />
           <waitType>Seconds</waitType>
           <waitDuration>0</waitDuration>
           <variableScope>Global</variableScope>
@@ -262,19 +260,19 @@
         </DialogueEditorPhaseObject>
         <DialogueEditorPhaseObject>
           <id>4</id>
-          <type>BranchedTextPhase</type>
+          <type>TextPhase</type>
+          <theme />
           <position>
-            <x>798.168945</x>
-            <y>246</y>
+            <x>1936.3042</x>
+            <y>73</y>
           </position>
           <outs>
-            <int xsi:nil="true" />
-            <int xsi:nil="true" />
-            <int xsi:nil="true" />
+            <int>5</int>
           </outs>
-          <advanced>false</advanced>
+          <advanced>true</advanced>
           <metadata />
-          <text>Выберите уровень сложности игры</text>
+          <text>Вкладка «Сообщения». 
+Здесь отображаются звонки и электронная почта, а так же оповещения.</text>
           <name />
           <portrait />
           <audio />
@@ -287,34 +285,30 @@
               <y>0</y>
             </position>
             <center>
-              <x>0</x>
-              <y>0</y>
+              <x>250</x>
+              <y>250</y>
             </center>
             <min>
               <x>0</x>
               <y>0</y>
             </min>
             <max>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </max>
-            <width>0</width>
-            <height>0</height>
+            <width>500</width>
+            <height>500</height>
             <size>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </size>
             <xMin>0</xMin>
             <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
           </rect>
           <newWindow>false</newWindow>
-          <choices>
-            <string>Начинающий</string>
-            <string>Средний</string>
-            <string>Экстримальный</string>
-          </choices>
+          <choices />
           <waitType>Seconds</waitType>
           <waitDuration>0</waitDuration>
           <variableScope>Global</variableScope>
@@ -330,16 +324,18 @@
         <DialogueEditorPhaseObject>
           <id>5</id>
           <type>TextPhase</type>
+          <theme />
           <position>
-            <x>1254.3042</x>
-            <y>80</y>
+            <x>2291.3042</x>
+            <y>74</y>
           </position>
           <outs>
             <int>6</int>
           </outs>
-          <advanced>false</advanced>
+          <advanced>true</advanced>
           <metadata />
-          <text>Информация о вашем местоположении отображается на миникарте в левом верхнем углу.</text>
+          <text>Вкладка «Задания». 
+Здесь находится задания для текущей миссии.</text>
           <name />
           <portrait />
           <audio />
@@ -352,27 +348,27 @@
               <y>0</y>
             </position>
             <center>
-              <x>0</x>
-              <y>0</y>
+              <x>250</x>
+              <y>250</y>
             </center>
             <min>
               <x>0</x>
               <y>0</y>
             </min>
             <max>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </max>
-            <width>0</width>
-            <height>0</height>
+            <width>500</width>
+            <height>500</height>
             <size>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </size>
             <xMin>0</xMin>
             <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
           </rect>
           <newWindow>false</newWindow>
           <choices />
@@ -391,16 +387,19 @@
         <DialogueEditorPhaseObject>
           <id>6</id>
           <type>TextPhase</type>
+          <theme />
           <position>
-            <x>1594.3042</x>
-            <y>75</y>
+            <x>2625.3042</x>
+            <y>77</y>
           </position>
           <outs>
             <int>7</int>
           </outs>
-          <advanced>false</advanced>
+          <advanced>true</advanced>
           <metadata />
-          <text>Вся необходимая информация находится в планшете слева.</text>
+          <text>Вкладка «Предприятие».
+Здесь находится информация о деятельности предприятия 
+(баланс, успешность работы, информация о сотрудниках).</text>
           <name />
           <portrait />
           <audio />
@@ -413,27 +412,27 @@
               <y>0</y>
             </position>
             <center>
-              <x>0</x>
-              <y>0</y>
+              <x>250</x>
+              <y>250</y>
             </center>
             <min>
               <x>0</x>
               <y>0</y>
             </min>
             <max>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </max>
-            <width>0</width>
-            <height>0</height>
+            <width>500</width>
+            <height>500</height>
             <size>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </size>
             <xMin>0</xMin>
             <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
           </rect>
           <newWindow>false</newWindow>
           <choices />
@@ -452,16 +451,19 @@
         <DialogueEditorPhaseObject>
           <id>7</id>
           <type>TextPhase</type>
+          <theme />
           <position>
-            <x>1936.3042</x>
-            <y>73</y>
+            <x>2970.3042</x>
+            <y>80</y>
           </position>
           <outs>
             <int>8</int>
           </outs>
-          <advanced>false</advanced>
+          <advanced>true</advanced>
           <metadata />
-          <text>Вкладка «Сообщения». Здесь отображаются звонки и электронная почта, а так же оповещения.</text>
+          <text>Вкладка «Проекты». 
+Состояние текущих проектов. 
+Следите чтобы проекты были выполнены в срок и вкладывались в бюджет.</text>
           <name />
           <portrait />
           <audio />
@@ -474,27 +476,27 @@
               <y>0</y>
             </position>
             <center>
-              <x>0</x>
-              <y>0</y>
+              <x>250</x>
+              <y>250</y>
             </center>
             <min>
               <x>0</x>
               <y>0</y>
             </min>
             <max>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </max>
-            <width>0</width>
-            <height>0</height>
+            <width>500</width>
+            <height>500</height>
             <size>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </size>
             <xMin>0</xMin>
             <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
           </rect>
           <newWindow>false</newWindow>
           <choices />
@@ -513,16 +515,18 @@
         <DialogueEditorPhaseObject>
           <id>8</id>
           <type>TextPhase</type>
+          <theme />
           <position>
-            <x>2291.3042</x>
-            <y>74</y>
+            <x>3299.3042</x>
+            <y>78</y>
           </position>
           <outs>
             <int>9</int>
           </outs>
-          <advanced>false</advanced>
+          <advanced>true</advanced>
           <metadata />
-          <text>Вкладка «Задания». Здесь находится задания для текущей миссии.</text>
+          <text>Вкладка «Статистика». 
+Тут будут приведены финансовые результаты деятельности предприятия.</text>
           <name />
           <portrait />
           <audio />
@@ -535,27 +539,27 @@
               <y>0</y>
             </position>
             <center>
-              <x>0</x>
-              <y>0</y>
+              <x>250</x>
+              <y>250</y>
             </center>
             <min>
               <x>0</x>
               <y>0</y>
             </min>
             <max>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </max>
-            <width>0</width>
-            <height>0</height>
+            <width>500</width>
+            <height>500</height>
             <size>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </size>
             <xMin>0</xMin>
             <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
           </rect>
           <newWindow>false</newWindow>
           <choices />
@@ -576,15 +580,16 @@
           <type>TextPhase</type>
           <theme />
           <position>
-            <x>2625.3042</x>
+            <x>3654.3042</x>
             <y>77</y>
           </position>
           <outs>
             <int>10</int>
           </outs>
-          <advanced>false</advanced>
+          <advanced>true</advanced>
           <metadata />
-          <text>Вкладка «Предприятие» – Здесь находится информация о деятельности предприятия (баланс, успешность работы, информация о сотрудниках).</text>
+          <text>Ваш офис, здания налоговой инспекции, банков, инвесторов и т.д. отмечены на карте маркерами. 
+Чтобы перейти в здание, нажмите на его  маркер.</text>
           <name />
           <portrait />
           <audio />
@@ -597,27 +602,27 @@
               <y>0</y>
             </position>
             <center>
-              <x>0</x>
-              <y>0</y>
+              <x>250</x>
+              <y>250</y>
             </center>
             <min>
               <x>0</x>
               <y>0</y>
             </min>
             <max>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </max>
-            <width>0</width>
-            <height>0</height>
+            <width>500</width>
+            <height>500</height>
             <size>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </size>
             <xMin>0</xMin>
             <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
           </rect>
           <newWindow>false</newWindow>
           <choices />
@@ -636,16 +641,17 @@
         <DialogueEditorPhaseObject>
           <id>10</id>
           <type>TextPhase</type>
+          <theme />
           <position>
-            <x>2970.3042</x>
-            <y>80</y>
+            <x>4005.3042</x>
+            <y>76</y>
           </position>
           <outs>
             <int>11</int>
           </outs>
-          <advanced>false</advanced>
+          <advanced>true</advanced>
           <metadata />
-          <text>Вкладка «Проекты» – Состояние текущих проектов. Следите чтобы проекты были выполнены в срок и вкладывались в бюджет.</text>
+          <text>Желаем удачи при создании нового предприятия!</text>
           <name />
           <portrait />
           <audio />
@@ -658,27 +664,27 @@
               <y>0</y>
             </position>
             <center>
-              <x>0</x>
-              <y>0</y>
+              <x>250</x>
+              <y>250</y>
             </center>
             <min>
               <x>0</x>
               <y>0</y>
             </min>
             <max>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </max>
-            <width>0</width>
-            <height>0</height>
+            <width>500</width>
+            <height>500</height>
             <size>
-              <x>0</x>
-              <y>0</y>
+              <x>500</x>
+              <y>500</y>
             </size>
             <xMin>0</xMin>
             <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
+            <xMax>500</xMax>
+            <yMax>500</yMax>
           </rect>
           <newWindow>false</newWindow>
           <choices />
@@ -696,189 +702,6 @@
         </DialogueEditorPhaseObject>
         <DialogueEditorPhaseObject>
           <id>11</id>
-          <type>TextPhase</type>
-          <position>
-            <x>3299.3042</x>
-            <y>78</y>
-          </position>
-          <outs>
-            <int>12</int>
-          </outs>
-          <advanced>false</advanced>
-          <metadata />
-          <text>Вкладка «Статистика». Тут будут приведены финансовые результаты деятельности предприятия.</text>
-          <name />
-          <portrait />
-          <audio />
-          <audioDelay>0</audioDelay>
-          <rect>
-            <x>0</x>
-            <y>0</y>
-            <position>
-              <x>0</x>
-              <y>0</y>
-            </position>
-            <center>
-              <x>0</x>
-              <y>0</y>
-            </center>
-            <min>
-              <x>0</x>
-              <y>0</y>
-            </min>
-            <max>
-              <x>0</x>
-              <y>0</y>
-            </max>
-            <width>0</width>
-            <height>0</height>
-            <size>
-              <x>0</x>
-              <y>0</y>
-            </size>
-            <xMin>0</xMin>
-            <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
-          </rect>
-          <newWindow>false</newWindow>
-          <choices />
-          <waitType>Seconds</waitType>
-          <waitDuration>0</waitDuration>
-          <variableScope>Global</variableScope>
-          <variableType>Boolean</variableType>
-          <variableId>0</variableId>
-          <variableScrollPosition>
-            <x>0</x>
-            <y>0</y>
-          </variableScrollPosition>
-          <variableSetEquation>Equals</variableSetEquation>
-          <variableGetEquation>Equals</variableGetEquation>
-        </DialogueEditorPhaseObject>
-        <DialogueEditorPhaseObject>
-          <id>12</id>
-          <type>TextPhase</type>
-          <position>
-            <x>3654.3042</x>
-            <y>77</y>
-          </position>
-          <outs>
-            <int>13</int>
-          </outs>
-          <advanced>false</advanced>
-          <metadata />
-          <text>Ваш офис, здания налоговой инспекции, банков, инвесторов и т.д. отмечены на карте маркерами. Чтобы перейти в здание, нажмите на его  маркер.</text>
-          <name />
-          <portrait />
-          <audio />
-          <audioDelay>0</audioDelay>
-          <rect>
-            <x>0</x>
-            <y>0</y>
-            <position>
-              <x>0</x>
-              <y>0</y>
-            </position>
-            <center>
-              <x>0</x>
-              <y>0</y>
-            </center>
-            <min>
-              <x>0</x>
-              <y>0</y>
-            </min>
-            <max>
-              <x>0</x>
-              <y>0</y>
-            </max>
-            <width>0</width>
-            <height>0</height>
-            <size>
-              <x>0</x>
-              <y>0</y>
-            </size>
-            <xMin>0</xMin>
-            <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
-          </rect>
-          <newWindow>false</newWindow>
-          <choices />
-          <waitType>Seconds</waitType>
-          <waitDuration>0</waitDuration>
-          <variableScope>Global</variableScope>
-          <variableType>Boolean</variableType>
-          <variableId>0</variableId>
-          <variableScrollPosition>
-            <x>0</x>
-            <y>0</y>
-          </variableScrollPosition>
-          <variableSetEquation>Equals</variableSetEquation>
-          <variableGetEquation>Equals</variableGetEquation>
-        </DialogueEditorPhaseObject>
-        <DialogueEditorPhaseObject>
-          <id>13</id>
-          <type>TextPhase</type>
-          <position>
-            <x>4005.3042</x>
-            <y>76</y>
-          </position>
-          <outs>
-            <int>14</int>
-          </outs>
-          <advanced>false</advanced>
-          <metadata />
-          <text>Желаем удачи при создании нового предприятия!</text>
-          <name />
-          <portrait />
-          <audio />
-          <audioDelay>0</audioDelay>
-          <rect>
-            <x>0</x>
-            <y>0</y>
-            <position>
-              <x>0</x>
-              <y>0</y>
-            </position>
-            <center>
-              <x>0</x>
-              <y>0</y>
-            </center>
-            <min>
-              <x>0</x>
-              <y>0</y>
-            </min>
-            <max>
-              <x>0</x>
-              <y>0</y>
-            </max>
-            <width>0</width>
-            <height>0</height>
-            <size>
-              <x>0</x>
-              <y>0</y>
-            </size>
-            <xMin>0</xMin>
-            <yMin>0</yMin>
-            <xMax>0</xMax>
-            <yMax>0</yMax>
-          </rect>
-          <newWindow>false</newWindow>
-          <choices />
-          <waitType>Seconds</waitType>
-          <waitDuration>0</waitDuration>
-          <variableScope>Global</variableScope>
-          <variableType>Boolean</variableType>
-          <variableId>0</variableId>
-          <variableScrollPosition>
-            <x>0</x>
-            <y>0</y>
-          </variableScrollPosition>
-          <variableSetEquation>Equals</variableSetEquation>
-          <variableGetEquation>Equals</variableGetEquation>
-        </DialogueEditorPhaseObject>
-        <DialogueEditorPhaseObject>
-          <id>14</id>
           <type>EndPhase</type>
           <position>
             <x>4367.304</x>
@@ -930,6 +753,128 @@
             <y>0</y>
           </variableScrollPosition>
           <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>12</id>
+          <type>TextPhase</type>
+          <theme />
+          <position>
+            <x>374</x>
+            <y>55</y>
+          </position>
+          <outs>
+            <int>1</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text>Приветствуем в симуляторе IT предприятия  «Steps to Success».
+Вы пройдете все этапы создания и функионирования предприятия в этой области.</text>
+          <name />
+          <portrait />
+          <audio />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>400</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>800</x>
+              <y>0</y>
+            </max>
+            <width>800</width>
+            <height>0</height>
+            <size>
+              <x>800</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>800</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Boolean</variableType>
+          <variableId>0</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>13</id>
+          <type>SetVariablePhase</type>
+          <position>
+            <x>79</x>
+            <y>274</y>
+          </position>
+          <outs>
+            <int>12</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Float</variableType>
+          <variableId>1</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableSetValue>0</variableSetValue>
           <variableGetEquation>Equals</variableGetEquation>
         </DialogueEditorPhaseObject>
       </phases>
@@ -1154,7 +1099,7 @@
     <DialogueEditorDialogueObject>
       <id>2</id>
       <name>Mission1</name>
-      <startPage>0</startPage>
+      <startPage>13</startPage>
       <scrollPosition>
         <x>106.467522</x>
         <y>0</y>
@@ -1164,8 +1109,8 @@
           <id>0</id>
           <type>BranchedTextPhase</type>
           <position>
-            <x>244</x>
-            <y>113</y>
+            <x>317</x>
+            <y>35</y>
           </position>
           <outs>
             <int xsi:nil="true" />
@@ -1229,8 +1174,8 @@
           <id>1</id>
           <type>BranchedTextPhase</type>
           <position>
-            <x>605</x>
-            <y>299</y>
+            <x>617</x>
+            <y>305</y>
           </position>
           <outs>
             <int>2</int>
@@ -1968,6 +1913,65 @@
           <variableSetEquation>Equals</variableSetEquation>
           <variableGetEquation>Equals</variableGetEquation>
         </DialogueEditorPhaseObject>
+        <DialogueEditorPhaseObject>
+          <id>13</id>
+          <type>SetVariablePhase</type>
+          <position>
+            <x>175.467529</x>
+            <y>357</y>
+          </position>
+          <outs>
+            <int>0</int>
+          </outs>
+          <advanced>false</advanced>
+          <metadata />
+          <text />
+          <audioDelay>0</audioDelay>
+          <rect>
+            <x>0</x>
+            <y>0</y>
+            <position>
+              <x>0</x>
+              <y>0</y>
+            </position>
+            <center>
+              <x>0</x>
+              <y>0</y>
+            </center>
+            <min>
+              <x>0</x>
+              <y>0</y>
+            </min>
+            <max>
+              <x>0</x>
+              <y>0</y>
+            </max>
+            <width>0</width>
+            <height>0</height>
+            <size>
+              <x>0</x>
+              <y>0</y>
+            </size>
+            <xMin>0</xMin>
+            <yMin>0</yMin>
+            <xMax>0</xMax>
+            <yMax>0</yMax>
+          </rect>
+          <newWindow>false</newWindow>
+          <choices />
+          <waitType>Seconds</waitType>
+          <waitDuration>0</waitDuration>
+          <variableScope>Global</variableScope>
+          <variableType>Float</variableType>
+          <variableId>1</variableId>
+          <variableScrollPosition>
+            <x>0</x>
+            <y>0</y>
+          </variableScrollPosition>
+          <variableSetEquation>Equals</variableSetEquation>
+          <variableSetValue>2</variableSetValue>
+          <variableGetEquation>Equals</variableGetEquation>
+        </DialogueEditorPhaseObject>
       </phases>
       <floats>
         <variables />
@@ -2258,7 +2262,7 @@
       <name>Mission3</name>
       <startPage>1</startPage>
       <scrollPosition>
-        <x>837.1201</x>
+        <x>0</x>
         <y>0</y>
       </scrollPosition>
       <phases>
@@ -2326,6 +2330,7 @@
         <DialogueEditorPhaseObject>
           <id>1</id>
           <type>TextPhase</type>
+          <theme />
           <position>
             <x>192</x>
             <y>72</y>
@@ -2469,7 +2474,7 @@
           <id>0</id>
         </DialogueEditorVariableObject>
         <DialogueEditorVariableObject>
-          <name>Other</name>
+          <name>Login</name>
           <variable>false</variable>
           <id>1</id>
         </DialogueEditorVariableObject>
@@ -2483,11 +2488,22 @@
           <variable>0</variable>
           <id>0</id>
         </DialogueEditorVariableObject>
+        <DialogueEditorVariableObject>
+          <name>CurrentId</name>
+          <variable>0</variable>
+          <id>1</id>
+        </DialogueEditorVariableObject>
       </variables>
-      <selection>0</selection>
+      <selection>1</selection>
     </floats>
     <strings>
-      <variables />
+      <variables>
+        <DialogueEditorVariableObject>
+          <name>Login</name>
+          <variable />
+          <id>0</id>
+        </DialogueEditorVariableObject>
+      </variables>
       <selection>0</selection>
     </strings>
   </globals>
@@ -2515,5 +2531,5 @@
     <x>0</x>
     <y>0</y>
   </selectorScrollPosition>
-  <currentDialogueId>4</currentDialogueId>
+  <currentDialogueId>2</currentDialogueId>
 </DialogueEditorMasterObject>

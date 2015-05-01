@@ -1,0 +1,63 @@
+﻿using UnityEngine;
+using System.Collections;
+using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
+using System;
+using Model;
+
+public class GreetingDialogue : DialoguerGui
+{
+
+		
+		protected override void  Start ()
+		{
+				Dialoguer.events.onStarted += base.onStarted;
+				Dialoguer.events.onEnded += base.onEnded;
+				Dialoguer.events.onTextPhase += onTextPhase;
+				for (int i=0; i < tabsButtons.Length; i++) {
+						tabsButtons [i] = tabletImage.GetComponentInChildren<Canvas> ().GetComponentsInChildren<Button> () [i];
+				}
+		}
+	
+		protected override void onTextPhase (DialoguerTextData data)
+		{		
+				base.onTextPhase (data);
+				actionOnSlide ();
+				slideId++;
+		}
+
+		private void actionOnSlide ()
+		{
+				switch (slideId) {
+				case 3:
+						{
+								Debug.Log ("Show $ panel");
+								break;
+						}
+				case 4:
+						{
+								minimapCamera.camera.orthographicSize = 10;
+								break;
+						}
+				case 5:
+						{
+								minimapCamera.camera.orthographicSize = 22;
+								iTween.MoveFrom (tabletImage, iTween.Hash ("x", -230f, "easetype", iTween.EaseType.easeInExpo));
+								iTween.MoveTo (tabletImage, iTween.Hash ("x", 220f, "easetype", iTween.EaseType.easeInExpo));
+								break;
+						}
+				case 7:
+						{
+								//tabsButtons [1].SendMessage ("OnClick");
+								break;
+						}
+				case 12:
+						{
+								iTween.MoveFrom (tabletImage, iTween.Hash ("x", 240f, "easetype", iTween.EaseType.easeInExpo));
+								iTween.MoveTo (tabletImage, iTween.Hash ("x", -220f, "easetype", iTween.EaseType.easeInExpo));
+								break;
+						}
+				}
+		}
+}
