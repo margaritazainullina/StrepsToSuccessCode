@@ -43,4 +43,5 @@ public class CharacterPosition : MonoBehaviour
 						transform.position = new Vector3 (992.9827f, 31.0f, 1109.696f);
 				}
 		}
+	}
 }
