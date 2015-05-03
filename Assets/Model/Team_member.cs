@@ -11,18 +11,17 @@ using System;
 
 namespace Model
 {
-	[Serializable]
-	public class Team_member
-	{
-		public virtual Int64 Employee_id { get; set; }
-		public virtual Int64 Project_id { get; set; }
-		
-		
-		public Team_member(Int64 employee_id, Int64 project_id)
+		[Serializable]
+		public class Team_member
 		{
-			Employee_id = employee_id;
-			Project_id = project_id;
-			
+				public virtual Int64 Employee_id { get; set; }
+				public virtual Int64 Project_id { get; set; }
+		
+		
+				public Team_member (Int64 employee_id, Int64 project_id)
+				{
+						Employee_id = employee_id;
+						Project_id = project_id;			
+				}
 		}
-	}
 }

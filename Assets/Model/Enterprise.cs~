@@ -6,9 +6,11 @@ using Model;
 using System.Collections.Generic;
 using AssemblyCSharp;
 using System.Linq;
+using Assets;
 
 namespace Model
 {
+
 		[Serializable]
 		public class Enterprise
 		{
@@ -17,7 +19,7 @@ namespace Model
 				public Decimal Balance { get; set; }
 				public Double Stationary { get; set; }
 				public Int16? Type { get; set; }
-				public Int64 Taxation_id { get; set; }
+				public Int64? Taxation_id { get; set; }
 
 				public virtual Taxation Taxation { get; set; }
 
@@ -33,11 +35,11 @@ namespace Model
 				public virtual List<Taxation> AllTaxations { get; set; }
 				public virtual List<Role> AllRoles { get; set; }
 				public virtual List<Equipment> AllEquipment { get; set; }
-				public virtual List<Document> AllDocumants { get; set; }
+				public virtual List<Document> AllDocuments { get; set; }
 				public virtual List<Company> AllCompanies { get; set; }
 
 				public Enterprise (Int64 id, String title, Decimal balance, Double stationary,
-                           Int16? type, Int64 taxation_id)
+                           Int16? type, Int64? taxation_id)
 				{
 						Id = id;
 						Title = title;
@@ -45,6 +47,26 @@ namespace Model
 						Stationary = stationary;
 						Type = type;
 						Taxation_id = taxation_id;
+
+						//initialise collections
+						Assets = new List<Asset> ();
+						Services = new List<Service> ();
+						Competitors = new List<Competitor> ();
+						Employees = new List<Employee> ();
+						Enterprise_docs = new List<Enterprise_docs> ();
+						Enterprise_equipment = new List<Enterprise_equipment> ();
+						Projects = new List<Project> ();
+						/*AllRoles = RoleDAO.GetRoles(STSDataOperations.instance);
+						AllTaxations = TaxationDAO.GetTaxations(STSDataOperations.instance);
+						AllEquipment = EquipmentDAO.GetEquipment(STSDataOperations.instance);
+						AllDocuments = DocumentDAO.GetDocuments(STSDataOperations.instance);
+						AllCompanies = CompanyDAO.GetCompanies(STSDataOperations.instance);*/
+				}
+
+
+				public Enterprise ()
+				{
+						//TabScript tb = new TabScript();	
 				}
 
 				//5 types of enterprise creation - 
@@ -53,40 +75,48 @@ namespace Model
 				{
 						this.Balance = personal;
 						this.Assets.Add (new Asset (0, personal, DateTime.Now, this.Id));
+						//push notification to handle it and display info in UI
+						NotificationCenter.getI.postNotification ("CreateEnterpriseWithPrivateAssets", personal);	
 				}
 
 				public void CreateEnterpriseWithInvestment (Decimal investment, Company investor)
-				{
+				{	
 						RecieveInvestment (investor);
+						NotificationCenter.getI.postNotification ("CreateEnterpriseWithInvestment", investment);
 				}
 
 				public void RecieveInvestment (Company investor)
 				{
 						this.Balance += investor.Investment;
 						Assets.Add (new Asset (0, investor.Investment, DateTime.Now, this.Id));
+						NotificationCenter.getI.postNotification ("RecieveInvestment", investor);
 				}
 
 				public void CreateEnterpriseWithCredit (Decimal credit, Company bank)
 				{
 						RecieveCredit (bank);
+						NotificationCenter.getI.postNotification ("CreateEnterpriseWithCredit", credit);
 				}
 
 				public void RecieveCredit (Company bank)
 				{
 						this.Balance += bank.Investment;
 						Assets.Add (new Asset (0, bank.Investment, DateTime.Now, this.Id));
+						NotificationCenter.getI.postNotification ("RecieveCredit", bank);
 				}
 
 				public void CreateEnterpriseWithPrivateAssetsAndInvestment (Decimal personal, Decimal investment, Company investor)
 				{
 						CreateEnterpriseWithInvestment (investment, investor);
 						CreateEnterpriseWithPrivateAssets (personal);
+						NotificationCenter.getI.postNotification ("CreateEnterpriseWithPrivateAssetsAndInvestment", personal + investment);
 				}
 
 				public void CreateEnterpriseWithPrivateAssetsAndCredit (Decimal personal, Decimal credit, Company bank)
 				{
 						CreateEnterpriseWithCredit (credit, bank);
 						CreateEnterpriseWithPrivateAssets (personal);
+						NotificationCenter.getI.postNotification ("CreateEnterpriseWithPrivateAssetsAndCredit", personal + credit);
 				}
 
 				public Decimal TotalIncomeForPeriod (Int32 days)
@@ -164,8 +194,10 @@ namespace Model
 										break;
 								}
 						}
-
+						if (!b)
+								NotificationCenter.getI.postNotification ("SetTaxationType", 0);
 						this.Type = (Int16?)type;
+						NotificationCenter.getI.postNotification ("SetTaxationType", Type);
 						return true;
 				}
 
@@ -206,6 +238,7 @@ namespace Model
 										s [9] + DateTime.Now.ToString ("dd.MM.yyyy");
 						}
 						Debug.Log ("Enterprise.CompleteDocuments(): " + document);
+						NotificationCenter.getI.postNotification ("CompleteDocuments", document);
 						return document;
 				}
 
@@ -228,6 +261,7 @@ namespace Model
 						PayUST (project.Expenditures);
 
 						Assets.Add (new Asset (0, salary, DateTime.Now, this.Id));
+						NotificationCenter.getI.postNotification ("PaySalary", project.Expenditures);
 						PayUST (salary);
 				}
 
@@ -245,6 +279,7 @@ namespace Model
 
 						Balance -= ust;
 						Assets.Add (new Asset (0, ust, DateTime.Now, Id));
+						NotificationCenter.getI.postNotification ("PayUST", ust);
 				}
 
 				public void LoanDisbursement ()
@@ -257,6 +292,7 @@ namespace Model
 										Decimal loan = (s.Company.Investment * (Decimal)s.Company.Share) / (Decimal)s.Period;
 
 										Balance -= loan;
+										NotificationCenter.getI.postNotification ("LoanDisbursement", loan);
 										Assets.Add (new Asset (1, loan, DateTime.Now, this.Id));
 								}
 						}
@@ -272,6 +308,7 @@ namespace Model
 								Asset a1 = new Asset (1, payout, DateTime.Now, Id);
 								Balance -= payout;
 								Assets.Add (a1);
+								NotificationCenter.getI.postNotification ("SharePayout", payout);
 						}
 				}
 

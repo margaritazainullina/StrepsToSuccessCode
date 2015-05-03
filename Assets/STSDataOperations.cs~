@@ -136,10 +136,10 @@ namespace Assets
 						List<Project_stage> projectStages;
 			
 						try {
-								CharacterDAO.LoadCharacterByName (instance, "Rita");
+								CharacterDAO.LoadCharacterByName (instance, "Daniel");
 				
 								Character.Instance.Enterprise = EnterpriseDAO.LoadEnterprise (instance);
-				
+								
 								Character.Instance.Enterprise.Employees = EmployeeDAO.LoadEmployees (instance);
 								Character.Instance.Enterprise.Competitors = CompetitorDAO.LoadCompetitors (instance);
 								Character.Instance.Enterprise.Enterprise_docs = Enterprise_docsDAO.LoadEnterprise_docs (instance);
@@ -154,6 +154,7 @@ namespace Assets
 								Character.Instance.Enterprise.AllEquipment = EquipmentDAO.GetEquipment (instance);
 								Character.Instance.Enterprise.AllDocuments = DocumentDAO.GetDocuments (instance);
 								Character.Instance.Enterprise.AllCompanies = CompanyDAO.GetCompanies (instance);
+								Character.Instance.AllStages = StageDAO.GetStages (instance);
 				
 								List<Team_member> teamMembers = Team_memberDAO.LoadTeam_members (instance);
 				
@@ -201,7 +202,9 @@ namespace Assets
 			
 						Character.Instance.Enterprise.Projects
 				.ForEach (item => item.Project_stage = projectStages.FirstOrDefault (value => value.Project_id == item.Id));
-			
+
+						
+
 						return true;
 				}
 		

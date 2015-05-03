@@ -1,0 +1,21 @@
+using System;
+
+namespace Model
+{
+		[Serializable]
+		public class Target
+		{
+				public Int64 Id { get; set; }
+				public Double PositionX { get; set; }
+				public Double PositionY { get; set; }
+				public Double PositionZ { get; set; }
+
+				public Target (Int64 id, Double positionX, Double positionY, Double positionZ)
+				{
+						Id = id;
+						PositionX = positionX;
+						PositionY = positionY;
+						PositionZ = positionZ;
+				}
+		}
+}

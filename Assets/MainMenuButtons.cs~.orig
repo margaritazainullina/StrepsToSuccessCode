@@ -1,0 +1,58 @@
+﻿using UnityEngine;
+using System.Collections;
+<<<<<<< HEAD
+using Assets;
+using System.Collections.Generic;
+using System.Linq;
+using Model;
+using System;
+using System.IO;
+
+public class MainMenuButtons : MonoBehaviour
+{
+	
+		// Use this for initialization
+		void Start ()
+		{
+		
+=======
+
+public class MainMenuButtons : MonoBehaviour
+{
+
+		// Use this for initialization
+		void Start ()
+		{
+	
+>>>>>>> 032089b84c5af8ddc78d399258cfad737150fe39
+		}
+	
+		// Update is called once per frame
+		void Update ()
+		{
+<<<<<<< HEAD
+		
+		}
+	
+		public void NewGame ()
+		{
+				//WHERE SHOULD WE ASK FOR BAMEE AND GENDER - IN WHICH SCENE
+				//STSDataOperations.StartNewGame();
+				Application.LoadLevel ("mock_city");			
+		}
+	
+=======
+	
+		}
+
+		public void NewGame ()
+		{
+				Application.LoadLevel ("city");
+		}
+
+>>>>>>> 032089b84c5af8ddc78d399258cfad737150fe39
+		public void ExitGame ()
+		{
+				Application.Quit ();
+		}
+}

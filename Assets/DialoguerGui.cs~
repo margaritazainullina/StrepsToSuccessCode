@@ -5,7 +5,8 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 
 
-
+using MySql.Data.MySqlClient;
+using Assets;
 
 public class DialoguerGui : MonoBehaviour
 {
@@ -50,13 +51,13 @@ public class DialoguerGui : MonoBehaviour
 		
 				if (_choices == null) {
 						if (GUI.Button (new Rect (Screen.width / 2 - 75, Screen.height - 50, 150, 30), "Далее")) {
-								Dialoguer.ContinueDialogue ();		
-
+								Dialoguer.ContinueDialogue ();
 								UnityEngine.Debug.Log ("User clicked next dialogue slide");
 						}
 				} else {
 						for (int i = 0; i < _choices.Length; i++) {
-								if (GUI.Button (new Rect (50, 220 + (40 * i), 200, 30), _choices [i])) {
+
+								if (GUI.Button (new Rect (Screen.width / 2 - 200, 100 + (50 * i), 400, 30), _choices [i])) {
 										Dialoguer.ContinueDialogue (i);
 										UnityEngine.Debug.Log ("User has selected choice" + i);
 								}
@@ -89,6 +90,7 @@ public class DialoguerGui : MonoBehaviour
 				}
 				_text = data.text;
 				_choices = data.choices;
+				
 				UnityEngine.Debug.Log ("Text phase changed");
 				if (currentDialogue == 0) {
 						actionOnSlide ();

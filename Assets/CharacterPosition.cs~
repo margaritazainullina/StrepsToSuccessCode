@@ -22,7 +22,7 @@ public class CharacterPosition : MonoBehaviour
 								//Application.LoadLevel ("office");
 								Dialoguer.StartDialogue (2);
 								//StartCoroutine(DisplayLoadingScreen("office"));
-								
+
 								//position = true;
 						}
 				}

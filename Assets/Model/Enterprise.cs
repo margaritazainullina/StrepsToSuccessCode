@@ -19,7 +19,7 @@ namespace Model
 				public Decimal Balance { get; set; }
 				public Double Stationary { get; set; }
 				public Int16? Type { get; set; }
-				public Int64 Taxation_id { get; set; }
+				public Int64? Taxation_id { get; set; }
 
 				public virtual Taxation Taxation { get; set; }
 
@@ -39,7 +39,7 @@ namespace Model
 				public virtual List<Company> AllCompanies { get; set; }
 
 				public Enterprise (Int64 id, String title, Decimal balance, Double stationary,
-                           Int16? type, Int64 taxation_id)
+                           Int16? type, Int64? taxation_id)
 				{
 						Id = id;
 						Title = title;
@@ -49,13 +49,13 @@ namespace Model
 						Taxation_id = taxation_id;
 
 						//initialise collections
-						Assets = new List<Asset>();
-						Services = new List<Service>();
-						Competitors = new List<Competitor>();
-						Employees = new List<Employee>();
-						Enterprise_docs = new List<Enterprise_docs>();
-						Enterprise_equipment = new List<Enterprise_equipment>();
-						Projects = new List<Project>();
+						Assets = new List<Asset> ();
+						Services = new List<Service> ();
+						Competitors = new List<Competitor> ();
+						Employees = new List<Employee> ();
+						Enterprise_docs = new List<Enterprise_docs> ();
+						Enterprise_equipment = new List<Enterprise_equipment> ();
+						Projects = new List<Project> ();
 						/*AllRoles = RoleDAO.GetRoles(STSDataOperations.instance);
 						AllTaxations = TaxationDAO.GetTaxations(STSDataOperations.instance);
 						AllEquipment = EquipmentDAO.GetEquipment(STSDataOperations.instance);
@@ -64,9 +64,10 @@ namespace Model
 				}
 
 
-		public Enterprise(){
-			//TabScript tb = new TabScript();	
-		}
+				public Enterprise ()
+				{
+						//TabScript tb = new TabScript();	
+				}
 
 				//5 types of enterprise creation - 
 				//private assets, investment, bank credit, private assets+investment, private assets+bank credit
@@ -75,26 +76,26 @@ namespace Model
 						this.Balance = personal;
 						this.Assets.Add (new Asset (0, personal, DateTime.Now, this.Id));
 						//push notification to handle it and display info in UI
-						NotificationCenter.getI.postNotification("CreateEnterpriseWithPrivateAssets", personal);	
+						NotificationCenter.getI.postNotification ("CreateEnterpriseWithPrivateAssets", personal);	
 				}
 
 				public void CreateEnterpriseWithInvestment (Decimal investment, Company investor)
 				{	
 						RecieveInvestment (investor);
-						NotificationCenter.getI.postNotification("CreateEnterpriseWithInvestment", investment);
+						NotificationCenter.getI.postNotification ("CreateEnterpriseWithInvestment", investment);
 				}
 
 				public void RecieveInvestment (Company investor)
 				{
 						this.Balance += investor.Investment;
 						Assets.Add (new Asset (0, investor.Investment, DateTime.Now, this.Id));
-						NotificationCenter.getI.postNotification("RecieveInvestment", investor);
+						NotificationCenter.getI.postNotification ("RecieveInvestment", investor);
 				}
 
 				public void CreateEnterpriseWithCredit (Decimal credit, Company bank)
 				{
 						RecieveCredit (bank);
-						NotificationCenter.getI.postNotification("CreateEnterpriseWithCredit", credit);
+						NotificationCenter.getI.postNotification ("CreateEnterpriseWithCredit", credit);
 				}
 
 				public void RecieveCredit (Company bank)
@@ -278,7 +279,7 @@ namespace Model
 
 						Balance -= ust;
 						Assets.Add (new Asset (0, ust, DateTime.Now, Id));
-						NotificationCenter.getI.postNotification("PayUST", ust);
+						NotificationCenter.getI.postNotification ("PayUST", ust);
 				}
 
 				public void LoanDisbursement ()

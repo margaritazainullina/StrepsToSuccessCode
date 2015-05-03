@@ -19,6 +19,9 @@ public class ProjectDAO
 				List<Project> projects = new List<Project> ();
 				//read data from dataReader and form list of Character instances
 				while (data.Read()) {
+						if (data.IsDBNull (0)) {
+								break;
+						}
 						Int64 id = Convert.ToInt64 (data ["id"]);
 						String title = Convert.ToString (data ["title"]);
 						DateTime planned_begin_date = Convert.ToDateTime (data ["planned_begin_date"]);
@@ -28,9 +31,10 @@ public class ProjectDAO
 						Int32 state = Convert.ToInt32 (data ["state"]);
 						Decimal stated_budget = Convert.ToDecimal (data ["stated_budget"]);
 						Int64 enterprise_id = Convert.ToInt64 (data ["enterprise_id"]);
+						Decimal expenditures = Convert.ToDecimal (data ["expenditures"]);
 
 						Project project = new Project (id, title, planned_begin_date, planned_end_date, real_begin_date, real_end_date,
-                                          state, stated_budget, enterprise_id);
+                              state, stated_budget, enterprise_id, expenditures);
 						Debug.Log ("Get character " + id);
 						projects.Add (project);
 				}
@@ -46,13 +50,13 @@ public class ProjectDAO
 				command.CommandText = "SELECT Max(Id) as id FROM project;";
 				MySqlDataReader data = command.ExecuteReader ();
 
-				Int64? maxId = 0;
+				Int64 maxId = 0;
 				//read data from dataReader and form list of Character instances
 				while (data.Read()) {
 						if (data.IsDBNull (0)) {
 								break;
 						}
-						maxId = data ["id"];
+						maxId = Convert.ToInt64 (data ["id"]);
 				}
 				connection.Close ();
 				return maxId;

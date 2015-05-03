@@ -23,12 +23,15 @@ public class EnterpriseDAO
 
 				//read data from dataReader and form list of Character instances
 				while (data.Read()) {
+						if (data.IsDBNull (0)) {
+								break;
+						}
 						String title = Convert.ToString (data ["title"]);
 						Decimal balance = Convert.ToDecimal (data ["balance"]);
 						Double stationary = Convert.ToDouble (data ["stationary"]);
 						Int64 id = Convert.ToInt64 (data ["id"]);
 						Int16? type = Helper.GetValueOrNull<Int16> (Convert.ToString (data ["type"]));
-						Int64 taxation_id = Convert.ToInt64 (data ["taxation_id"]);
+						Int64? taxation_id = Helper.GetValueOrNull<Int64> (Convert.ToString (data ["taxation_id"]));
 
 						enterprise = new Enterprise (id, title, balance, stationary, type, taxation_id);
 						Debug.Log ("Get enterprise " + title);
